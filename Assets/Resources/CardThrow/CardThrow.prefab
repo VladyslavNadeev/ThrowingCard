@@ -44,9 +44,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4b55814ae0980b47baecc685e6b794b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _spline: {fileID: 0}
-  _middlePointSensetivity: {x: 2, y: 2}
-  _endPointSensetivity: {x: 2, y: 2}
+  _middlePointSensetivity: {x: 4, y: 4}
+  _endPointSensetivity: {x: 3, y: 3}
 --- !u!1 &6100796998485798583
 GameObject:
   m_ObjectHideFlags: 0
@@ -92,6 +91,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9a17009cf7135844a49fd5ebf888807, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _cardsToSpawnPrefabs:
-  - {fileID: 8643781016598157891, guid: b71d1380a53f8a845a6eed133006e7de, type: 3}
   _canThrow: 0
